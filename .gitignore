@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+
+# Secretos y configuración local (solo se versiona .env.example)
+.env*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Datos de ejecución: contienen correos y hashes de contraseña. NUNCA versionar ni empaquetar.
+.data/
+*.corrupt-*
